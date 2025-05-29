@@ -1,0 +1,155 @@
+/* HomePage.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f1ea;
+  color: #4e342e;
+}
+
+/* Header */
+header {
+  background-color: #d7ccc8;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #3e2723;
+  letter-spacing: 1px;
+}
+
+nav a {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #6d4c41;
+}
+
+/* Welcome Section */
+.welcome {
+  text-align: center;
+  padding: 6rem 1rem;
+  background-color: #efebe9;
+}
+
+.welcome h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.welcome p {
+  font-size: 1.25rem;
+  color: #5d4037;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Menu Section */
+.menu {
+  padding: 5rem 1rem;
+  background-color: #fbe9e7;
+}
+
+.menu h3 {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.menu-grid {
+  display: grid;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  background: white;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+}
+
+.menu-item h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+  font-weight: 600;
+  color: #6d4c41;
+}
+
+/* About Section */
+.about {
+  padding: 6rem 1rem;
+  background-color: #d7ccc8;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  color: #4e342e;
+}
+
+/* Footer */
+footer {
+  background-color: #a1887f;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+footer .footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  font-size: 0.875rem;
+}
+
+footer a {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
